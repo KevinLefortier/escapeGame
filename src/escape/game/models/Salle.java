@@ -7,7 +7,7 @@ import escape.game.exceptions.NullResponseException;
 
 public class Salle {
 	private String nom;
-	private List<Enigme> enigmes;
+	protected List<Enigme> enigmes;
 	private int tempsLimite;
 	private boolean estTerminee;
 	private Salle salleSuivante;
